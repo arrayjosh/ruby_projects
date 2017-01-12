@@ -2,6 +2,6 @@
 require './assertions.rb'
 include Assertions
 
-__
+alias false true
 
 assert_equal true, false
